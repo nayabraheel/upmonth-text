@@ -1,0 +1,269 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Tue Jul 13 21:12:17 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Volumes/Data/Workspace/Python/upmonth
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FLUTTER_HOME = /Volumes/Data/Workspace/flutter/sdk/bin
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/pm/d9gsvl5152qd_t92p09wp4gh0000gn/T/vscode-ipc-94fa959b-107b-4932-8982-1901e8f60840.sock
+# environment
+VSCODE_CWD = /
+# environment
+Apple_PubSub_Socket_Render = /private/tmp/com.apple.launchd.81lZBQHJNn/Render
+# makefile (from `Makefile', line 8)
+PATH := ./test/upmonth:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/nayabraheel/opt/anaconda3/bin:/Users/nayabraheel/opt/anaconda3/condabin:/usr/local/opt/libpq/bin:/opt/local/bin:/opt/local/sbin:/Applications/XAMPP/xamppfiles/bin:/Users/nayabraheel/.composer/vendor/bin:/Users/nayabraheel/Library/Android/sdk/tools:/Users/nayabraheel/Library/Android/sdk/platform-tools:/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home:/Volumes/Data/Workspace/flutter/sdk/bin:/Users/nayabraheel/Library/Android/sdk/build-tools/29.0.3:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/XAMPP/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+# makefile (from `Makefile', line 6)
+TEST_DIR := ./test/upmonth
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.fh70ePZZne/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /Users/nayabraheel/opt/anaconda3/bin/conda
+# environment
+ANDROID_BUILD_TOOLS = /Users/nayabraheel/Library/Android/sdk/build-tools/29.0.3
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Volumes/Data/Workspace/Python/upmonth
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 15)
+PYTHON = python
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /Users/nayabraheel
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/nayabraheel/Library/Application Support/Code/CachedData/2d23c42a936db1c7b3b06f918cde29561cc47cd6
+# environment
+LOGNAME = nayabraheel
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XAMPP_HOME = /Applications/XAMPP
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# environment
+JAVA_HOME = /Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = nayabraheel
+# makefile
+.DEFAULT_GOAL := test
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/pm/d9gsvl5152qd_t92p09wp4gh0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/nayabraheel/Library/Application Support/Code/1.58.0-main.sock
+# makefile (from `Makefile', line 7)
+PYTHONPATH := ./src/upmonth:./test/upmonth:
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = com.microsoft.VSCode.39212
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `Makefile', line 12)
+TOKENIZERS_PARALLELISM := false
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 5)
+SRC_DIR := ./src/upmonth
+# environment
+VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
+# automatic
+<F = $(notdir $<)
+# environment
+ANDROID_SDK_ROOT = /Users/nayabraheel/Library/Android/sdk
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /Users/nayabraheel/opt/anaconda3/bin/python
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+ANDROID_AVD_HOME = /Users/nayabraheel/Library/Android/sdk/.android/avd
+# environment
+MAKELEVEL := 0
+# makefile (from `Makefile', line 9)
+PYTHONWARNINGS := ignore
+# environment
+ANDROID_SDK_HOME = /Users/nayabraheel/Library/Android/sdk
+# environment
+CONDA_PREFIX = /Users/nayabraheel/opt/anaconda3
+# environment
+VSCODE_PID = 89631
+# environment
+_CE_CONDA = 
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=83/1024=8%, Rehash=0, Collisions=3/118=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777218, inode 27306645): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: test
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-13 20:08:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 19):
+	${PYTHON} -m unittest discover -v -s ${TEST_DIR}
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+coverage:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 23):
+	coverage run -m unittest discover -v -s ${TEST_DIR}
+	coverage combine
+	
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/20=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Jul 13 21:12:17 2021
+
+ 
+make: *** No rule to make target `all'.  Stop.
+ 

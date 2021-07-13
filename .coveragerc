@@ -1,0 +1,7 @@
+[run]
+source = src/upmonth
+concurrency = multiprocessing
+disable_warnings = no-data-collected
+
+[combine]
+disable_warnings = no-data-collected
